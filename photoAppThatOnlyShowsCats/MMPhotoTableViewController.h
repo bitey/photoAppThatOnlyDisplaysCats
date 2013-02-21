@@ -1,5 +1,5 @@
 //
-//  MMViewController.h
+//  MMPhotoTableViewController.h
 //  photoAppThatOnlyShowsCats
 //
 //  Created by StopBitingMe on 2/20/13.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface MMViewController : UIViewController
+@interface MMPhotoTableViewController : UITableViewController
 
 @end

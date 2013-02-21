@@ -17,7 +17,7 @@
 		B4F2512816D5DFB700DE6316 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B4F2512716D5DFB700DE6316 /* Default@2x.png */; };
 		B4F2512A16D5DFB700DE6316 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B4F2512916D5DFB700DE6316 /* Default-568h@2x.png */; };
 		B4F2512D16D5DFB700DE6316 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4F2512B16D5DFB700DE6316 /* MainStoryboard.storyboard */; };
-		B4F2513016D5DFB700DE6316 /* MMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B4F2512F16D5DFB700DE6316 /* MMViewController.m */; };
+		B4F2513816D5E18400DE6316 /* MMPhotoTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B4F2513716D5E18400DE6316 /* MMPhotoTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,8 +35,8 @@
 		B4F2512716D5DFB700DE6316 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		B4F2512916D5DFB700DE6316 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		B4F2512C16D5DFB700DE6316 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		B4F2512E16D5DFB700DE6316 /* MMViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MMViewController.h; sourceTree = "<group>"; };
-		B4F2512F16D5DFB700DE6316 /* MMViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MMViewController.m; sourceTree = "<group>"; };
+		B4F2513616D5E18400DE6316 /* MMPhotoTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMPhotoTableViewController.h; sourceTree = "<group>"; };
+		B4F2513716D5E18400DE6316 /* MMPhotoTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMPhotoTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,8 +86,8 @@
 				B4F2512216D5DFB700DE6316 /* MMAppDelegate.h */,
 				B4F2512316D5DFB700DE6316 /* MMAppDelegate.m */,
 				B4F2512B16D5DFB700DE6316 /* MainStoryboard.storyboard */,
-				B4F2512E16D5DFB700DE6316 /* MMViewController.h */,
-				B4F2512F16D5DFB700DE6316 /* MMViewController.m */,
+				B4F2513616D5E18400DE6316 /* MMPhotoTableViewController.h */,
+				B4F2513716D5E18400DE6316 /* MMPhotoTableViewController.m */,
 				B4F2511A16D5DFB700DE6316 /* Supporting Files */,
 			);
 			path = photoAppThatOnlyShowsCats;
@@ -176,7 +176,7 @@
 			files = (
 				B4F2512016D5DFB700DE6316 /* main.m in Sources */,
 				B4F2512416D5DFB700DE6316 /* MMAppDelegate.m in Sources */,
-				B4F2513016D5DFB700DE6316 /* MMViewController.m in Sources */,
+				B4F2513816D5E18400DE6316 /* MMPhotoTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
